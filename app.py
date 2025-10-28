@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -51,7 +50,7 @@ SENHA_ADMIN = "admin123"
 if 'dados' not in st.session_state:
     st.session_state.dados = None
 if 'is_admin' not in st.session_state:
-    st.session_state.is_admin = False
+    st.session_state.is_admin = Smart@0102
 
 # Sidebar - Login Admin
 with st.sidebar:
