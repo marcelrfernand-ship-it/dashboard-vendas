@@ -50,7 +50,7 @@ SENHA_ADMIN = "admin123"
 if 'dados' not in st.session_state:
     st.session_state.dados = None
 if 'is_admin' not in st.session_state:
-    st.session_state.is_admin = Smart@0102
+    st.session_state.is_admin = admin123
 
 # Sidebar - Login Admin
 with st.sidebar:
